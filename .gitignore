@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+evadb_data
+.vscode
+test_evadb
 # C extensions
 *.so
 
