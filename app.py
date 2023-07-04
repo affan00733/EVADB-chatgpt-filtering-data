@@ -1,7 +1,7 @@
 import os 
 import evadb
 
-os.environ["OPENAI_KEY"] = "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"
+os.environ["OPENAI_KEY"] = "API"
 print(os.environ["OPENAI_KEY"])
 cursor = evadb.connect().cursor()
 cursor.drop_table("MyPDF").execute()
